@@ -12,7 +12,7 @@ function App() {
   const searchMovie = async () => {
     if (search.length === 0) return;
     const response = await fetch(
-      `http://www.omdbapi.com/?s=${search}&apikey=ff253a07`
+      `https://www.omdbapi.com/?s=${search}&apikey=ff253a07`
     );
     const data = await response.json();
     setMovies(data);
@@ -21,7 +21,7 @@ function App() {
   const setSelected = async (id) => {
     if (id.length === 0) return;
     const response = await fetch(
-      `http://www.omdbapi.com/?i=${id}&apikey=ff253a07`
+      `https://www.omdbapi.com/?i=${id}&apikey=ff253a07`
     );
     const data = await response.json();
     setSelectedMovie(data);

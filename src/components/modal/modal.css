@@ -20,9 +20,3 @@
 .modal .info {
   max-width: 40%;
 }
-
-.flex {
-  display: flex;
-  gap: 10px;
-  color: grey;
-}

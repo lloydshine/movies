@@ -10,10 +10,7 @@ export default function Modal({ movie, setSelectedMovie }) {
           onClick={() => setSelectedMovie(null)}
         />
         <div className="info">
-          <div className="flex">
-            <p>{movie.Year}</p>
-            <p>{movie.Runtime}</p>
-          </div>
+          <p style={{color:"gray"}}>{movie.Year} | {movie.Runtime}</p>
           <h2>{movie.Title}</h2>
           <p>{movie.Plot}</p>
           <p>Genre: {movie.Genre}</p>

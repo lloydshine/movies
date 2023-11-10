@@ -1,0 +1,36 @@
+.movie {
+  display: flex;
+  flex-direction: column;
+  max-width: 220px;
+}
+
+.movie .info {
+  color: gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+  font-size: 0.7rem;
+}
+.movie img {
+  height: 350px;
+  width: 220px;
+  margin-bottom: 7px;
+}
+
+.movie .type {
+  padding: 3px;
+  border-radius: 5px;
+  border: solid 1px rgba(255, 255, 255, 0.534);
+}
+.movie .title-text {
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.movie .title-text:hover {
+  color: rgb(255, 136, 0);
+}

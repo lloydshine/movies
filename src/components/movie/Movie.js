@@ -3,7 +3,7 @@ import "./movie.css";
 export default function Movie({ props, setSelected }) {
   return (
     <div className="movie">
-      <img src={props.Poster} alt="img" />
+      <img onClick={() => setSelected(props.imdbID)} src={props.Poster} alt="img" />
       <div className="title">
         <p className="title-text" onClick={() => setSelected(props.imdbID)}>
           {props.Title}

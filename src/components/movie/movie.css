@@ -16,6 +16,7 @@
   height: 350px;
   width: 220px;
   margin-bottom: 7px;
+  cursor: pointer;
 }
 
 .movie .type {

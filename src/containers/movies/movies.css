@@ -14,3 +14,8 @@
   justify-content: center;
   margin-top: 1rem;
 }
+
+.not-found {
+  font-size: 1.3rem;
+  color: white;
+}
